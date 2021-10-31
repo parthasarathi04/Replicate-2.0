@@ -23,3 +23,9 @@ function scrolled(){
 
   if(i>=0) makeActive(document.getElementById(arr[i]+"-nav"));
 }
+
+function slide(n){
+  let elem = document.getElementById("slider");
+  elem.style.marginLeft = -(n*75+13)+"vw";
+  //console.log(elem.s)
+}
