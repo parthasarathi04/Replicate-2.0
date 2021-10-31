@@ -262,6 +262,7 @@ ul>li{
     height: 80vh;
     width: fit-content;
     margin-left: -13vw;
+    transition: ease-in-out 0.5s;
 }
 
 .slider-item{
@@ -298,6 +299,18 @@ ul>li{
 .project-detail-item>p>.pd{
     font-size: 30px;
     font-weight: 600;
+}
+
+#radio{
+    border: none;
+    margin-left: 43vw;
+    margin-top: -20vh;
+}
+
+input[type=radio]{
+    width:20px;
+    border: none;
+    outline: none;
 }
 
 #testimonial{
